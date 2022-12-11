@@ -1,0 +1,43 @@
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    display: flex;
+    width:10%;
+    height: 100%;
+    background:url('https://images.unsplash.com/photo-1558979158-65a1eaa08691?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+    border-radius: 20px;
+    transition: all 500ms;
+}
+
+
+.active{
+    width:50%;
+}
+
+/*.container div:hover{
+    width: 50%;
+}*/
+
+.card p{
+    display: none;
+    color:white;
+    position: relative;
+    margin-top: auto;
+    left:1.5em;
+    bottom: 1.5em;
+    transition: all 500ms;
+}
